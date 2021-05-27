@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-CA">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>
+    </title>
+
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="world.html">Worldometer</a></li>
+                <li><a href="canada.html">Canada</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="display1">
+
+        <div id="covid">
+            <h1>Coronavirus Worldometer</h1>
+            <!-- Function is invoked at on onchange event of drop down list
+            Value of selected value is passed as an argument
+            -->
+            <div id="dropdown">
+                <select id="country" onchange="selectedCountry(this)">
+                </select>
+            </div>
+            <div id="data">
+                <div id="country_name"></div>
+                <div id="flag">
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <div class="card a">
+                <i class="fa fa-tachometer"></i>
+                <h5>Today Cases</h5><span id="todaycases">
+
+            </div>
+
+            <div class="card b">
+                <i class="fa fa-times-circle"></i>
+                <h5>Active Cases</h5><span id="active"></span>
+
+            </div>
+            <div class="card c">
+                <i class="fa fa-times"></i>
+                <h5>Total Deaths</h5><span id="death"></span>
+            </div>
+            <div class="card d">
+                <i class="fa fa-th-list"></i>
+                <h5>Total Cases</h5><span id="cases"></span>
+            </div>
+            <div class="card e">
+                <i class="fa fa-check-square-o"></i>
+                <h5>All Recovered Cases</h5><span id="recovered"></span>
+            </div>
+            <div class="card f ">
+                <i class="fa fa-eye"></i>
+                <h5>Total Tests Done</h5><span id="tests"></span>
+            </div>
+
+        </div>
+
+
+    </section>
+    <p>Copyright © 2021 - Covid Api Application - created by: Vikas Sharma - All rights
+        reserved
+    </p>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+<script src="custom.js"></script>
+<script src="apicalling.js"></script>

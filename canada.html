@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-CA">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>
+    </title>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="world.html">Worldometer</a></li>
+                <li><a class="active" href="canada.html">Canada</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section id="display">
+
+        <h2 style="text-align: center;">Covid -19 Cases In <span id="country"></span><img src="" id="flag"></h2>
+
+        <div class="board">
+            <div class="card a">
+                <i class="fa fa-tachometer"></i>
+                <h5>Today Cases</h5><span id="todaycases"></span>
+            </div>
+
+            <div class="card b">
+                <i class="fa fa-times-circle"></i>
+                <h5>Critical Cases</h5><span id="critical">
+            </div>
+            <div class="card c">
+                <i class="fa fa-times"></i>
+                <h5>Total Deaths</h5><span id="death"></span>
+            </div>
+            <div class="card d">
+                <i class="fa fa-th-list"></i>
+                <h5>Total Cases</h5><span id="cases"></span>
+            </div>
+            <div class="card e">
+                <i class="fa fa-check-square-o"></i>
+                <h5>Recovered Cases</h5><span id="recovered"></span>
+            </div>
+            <div class="card f ">
+                <i class="fa fa-eye"></i>
+                <h5>Total Tests Done</h5><span id="tests"></span>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <p>Copyright © 2021 - Covid Api Application - created by: Vikas Sharma - All rights
+        reserved
+    </p>
+
+</body>
+
+</html>
+<script>
+
+    function getData(cb) {
+
+        var xhr = new XMLHttpRequest()
+        let url = 'https://corona.lmao.ninja/v3/covid-19/countries/CANADA';
+        xhr.open('GET', url);
+
+        xhr.send();
+        xhr.onreadystatechange = function () {
+            // if (this.readyState == 4 && this.status == 200) { can also be used
+
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                console.log(xhr);
+                console.log(typeof (xhr)); // IS AN OBJECT
+                cb(JSON.parse(xhr.responseText));
+
+            }
+
+        }
+
+    }
+
+    getData(function (Data) {
+        document.getElementById("flag").src = Data.countryInfo.flag;
+        document.getElementById("country").innerText = Data.country;
+        document.getElementById("todaycases").innerText = Data.todayCases;
+        document.getElementById("critical").innerText = Data.critical;
+        document.getElementById("death").innerText = Data.deaths;
+        document.getElementById("cases").innerText = Data.cases;
+        document.getElementById("recovered").innerText = Data.recovered;
+        document.getElementById("tests").innerText = Data.tests;
+
+
+    });
+//
+
+
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+    crossorigin="anonymous "></script>
