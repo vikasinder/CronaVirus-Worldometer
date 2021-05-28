@@ -11,12 +11,12 @@ Coranvirus Api Designed with  HTML5, CSS3 and JavaScript and Jquery Library
         
 ### Built Using
 
-* [Api](https://corona.lmao.ninja/)
-* [Api](https://opencovid.ca/api/)
-* [Javascript](https://www.w3schools.com/javascript/)
-* [Jquery](https://www.w3schools.com/jquery/)
-* [CSS3](https://www.w3schools.com/css/)
-* [HTML5](https://www.w3schools.com/html/)
+* [Api] (https://corona.lmao.ninja/)
+* [Api] (https://opencovid.ca/api/)
+* [Javascript] (https://www.w3schools.com/javascript/)
+* [Jquery] (https://www.w3schools.com/jquery/)
+* [CSS3] (https://www.w3schools.com/css/)
+* [HTML5] (https://www.w3schools.com/html/)
 
 
 ## Table Of Contents:-
