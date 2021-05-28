@@ -19,7 +19,7 @@ Updated Coranvirus Api Designed with  HTML5, CSS3 and JavaScript
 * [HTML5](https://www.w3schools.com/html/)
 
 
-## Structure Of Contents:-
+## Table Of Contents:-
 
 * Home.html
 * World.html
@@ -28,7 +28,22 @@ Updated Coranvirus Api Designed with  HTML5, CSS3 and JavaScript
 
 # Home.html
 
-### Home page designed to navigate to other pages
+## Home page designed to navigate to other pages
+
+# World.html
+
+## This page is made user friendly to the layman . From dropdown list select the value of the desired country , you want to check updated record for.
+   If the avaiable country record is not there , it will prompt with the message .      
+
+# Canada.html
+
+## Canada records page designed to show total records of canada 
+
+# Canadastatewise.html
+
+## Candawise state records page designed to show total records of every state in canada ( Graphical Represntation )
+
+
 
 ## Testing
 
