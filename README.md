@@ -26,22 +26,22 @@ Coranvirus Api Designed with  HTML5, CSS3 and JavaScript and Jquery Library
 * Canada.html
 * Canadastatewise.html ( Graphical Representation )
 
-# Home.html
+### Home.html:-
 
-## Home page designed to navigate to other pages
+* Home page designed to navigate to other pages
 
-# World.html
+### World.html:-
 
-## This page is made user friendly to the layman . From dropdown list select the value of the desired country , you want to check updated record for.
+* This page is made user friendly to the layman . From dropdown list select the value of the desired country , you want to check updated record for.
    If the avaiable country record is not there , it will prompt with the message .      
 
-# Canada.html
+### Canada.html:-
 
-## Canada records page designed to show total records of canada 
+* Canada records page designed to show total records of canada 
 
-# Canadastatewise.html
+### Canadastatewise.html:-
 
-## Candawise state records page designed to show total records of every state in canada ( Graphical Represntation )
+* Candawise state records page designed to show total records of every state in canada ( Graphical Represntation )
 
 
 
