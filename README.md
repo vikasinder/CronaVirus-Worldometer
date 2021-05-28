@@ -1,9 +1,9 @@
 # Cronavirus Worldometer Api Application
 
-Updated Coranvirus Api Designed with  HTML5, CSS3 and JavaScript
+Coranvirus Api Designed with  HTML5, CSS3 and JavaScript and Jquery Library
 
 
-## Crona Lmao Ninja Api is Used to built this project 
+## Crona Lmao Ninja And opencovid  Api's is Used to built this project 
 
 <h3 align="center">
         <a href="https://vikasinder.github.io/CronaVirus-Worldometer/">Click Here For Preview</a>
