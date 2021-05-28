@@ -12,7 +12,9 @@ Updated Coranvirus Api Designed with  HTML5, CSS3 and JavaScript
 ### Built Using
 
 * [Api](https://corona.lmao.ninja/)
+* [Api](https://opencovid.ca/api/)
 * [Javascript](https://www.w3schools.com/javascript/)
+* [Jquery](https://www.w3schools.com/jquery/)
 * [CSS3](https://www.w3schools.com/css/)
 * [HTML5](https://www.w3schools.com/html/)
 
@@ -22,6 +24,11 @@ Updated Coranvirus Api Designed with  HTML5, CSS3 and JavaScript
 * Home.html
 * World.html
 * Canada.html
+* Canadastatewise.html ( Graphical Representation )
+
+# Home.html
+
+### Home page designed to navigate to other pages
 
 ## Testing
 
