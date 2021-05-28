@@ -70,7 +70,7 @@ ul#menu li a:hover {
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswald;
+    font-family: Vollkorn;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 550px;
@@ -80,7 +80,20 @@ ul#menu li a:hover {
     background-color: rgba(7, 19, 17, 0.7);
     bottom: 30px;
     right: 50px;
-    position: absolute;
+    position: fixed;
+}
+
+#display3 {
+    font-family: Vollkorn;
+    width: 950px;
+    height: 600px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: #000;
+    bottom: 30px;
+    right: 50px;
+    margin: 50px auto;
+    color: #ffffff;
 }
 
 #cover-text, #cover-text h2 {
@@ -188,31 +201,37 @@ img#flag {
     padding: 8%;
     margin-bottom: 20px;
     border-radius: 6px;
-    color: #fff;
+    color: rgb(54, 4, 4);
 }
 
 .card.a {
-    background: #41a7ff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #ffffff;
 }
 
 .card.b {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background: #ff3434;
 }
 
 .card.c {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background: #32b336;
 }
 
 .card.d {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background: #d83f3f;
 }
 
 .card.e {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background: #d83f3f;
 }
 
 .card.f {
     background: #ffa501;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .card span {
